@@ -1,17 +1,36 @@
+# ------------------------
+# Terraform
+# ------------------------
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/.terraform.lock.hcl
+*.tfvars
+
+# ------------------------
+# AWS / Secrets
+# ------------------------
+*.pem
+*.key
+*.crt
+.env
+
+# ------------------------
 # Python
+# ------------------------
 venv/
 __pycache__/
 *.pyc
 
-# OS files
+# ------------------------
+# Node / Build
+# ------------------------
+node_modules/
+
+# ------------------------
+# OS / IDE
+# ------------------------
+.vscode/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Environment variables
-.env
-
-# Docker
-*.tar

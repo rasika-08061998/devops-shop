@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-shop-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: devops-shop
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
+
+
