@@ -27,14 +27,14 @@ AWS LoadBalancer (Public DNS)
 
 🧰 Tech Stack
 
-Cloud: AWS
-Container Registry: Amazon ECR
-Orchestration: Amazon EKS (Kubernetes)
-IaC: Terraform
-CI/CD: GitHub Actions
-Containerization: Docker
-Backend: Python (Flask)
-Frontend: HTML, CSS, JavaScript
+1. Cloud: AWS
+2. Container Registry: Amazon ECR
+3. Orchestration: Amazon EKS (Kubernetes)
+4. IaC: Terraform
+5. CI/CD: GitHub Actions
+6. Containerization: Docker
+7. Backend: Python (Flask)
+8. Frontend: HTML, CSS, JavaScript
 
 ⚙️ Key Features
 
@@ -58,10 +58,10 @@ Frontend: HTML, CSS, JavaScript
 
 📦 Kubernetes Deployment Strategy
 
-Replicas: 2
-Strategy: RollingUpdate
-maxUnavailable: 1
-maxSurge: 1
+1. Replicas: 2
+2. Strategy: RollingUpdate
+3. maxUnavailable: 1
+4. maxSurge: 1
 This ensures zero downtime during deployments.
 
 🌐 Application Access
@@ -74,18 +74,18 @@ http://<elb-dns-name>
 
 🔐 Security Best Practices
 
-IAM least-privilege policies
-No secrets committed to GitHub
-Terraform state files excluded via .gitignore
-GitHub Actions IAM user mapped via aws-auth
+1. IAM least-privilege policies
+2. No secrets committed to GitHub
+3. Terraform state files excluded via .gitignore
+4. GitHub Actions IAM user mapped via aws-auth
 
 📚 Learning Outcomes
 
-Real-world EKS troubleshooting
-CI/CD automation for Kubernetes
-IAM & RBAC integration
-Production deployment patterns
-Infrastructure as Code best practices
+1. Real-world EKS troubleshooting
+2. CI/CD automation for Kubernetes
+3. IAM & RBAC integration
+4. Production deployment patterns
+5. Infrastructure as Code best practices
 
 👩‍💻 Author
 
