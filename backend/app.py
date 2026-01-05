@@ -15,7 +15,7 @@ def home():
 
 @app.route("/products")
 def products():
-    return jsonify(PRODUCTS)
+    return jsonify(PRODUCTS), 200
 
 @app.route("/health")
 def health():
